@@ -17,7 +17,5 @@ const isLoadingPage = computed(() => {
         <main class="w-full h-full flex items-center justify-center mt-26">
             <slot />
         </main>
-
-        <AppFooter v-show="!isLoadingPage" />
     </div>
 </template>
